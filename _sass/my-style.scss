@@ -55,3 +55,26 @@
   font-weight: bold !important;
   color: rgb(3,102,214) !important;
 }
+
+.markdown-body{
+  kbd{
+    font-size: 15px;
+    font-family: monospace;
+    color:#555;
+    background-color: #fcfcfc;
+    border : solid 1px #ccc;
+    border-radius: 3px;
+    border-bottom-color: #bbb;
+    padding:10px;
+  }
+  mark{
+    padding:3px 5px;
+    background-color: #FFF9C4;
+  }
+  under{
+    text-decoration : underline;
+    text-decoration-color: red;
+    text-underline-position: under;
+    padding-bottom: 2px;
+  }
+}
