@@ -39,10 +39,19 @@
   margin-top: 5px !important;
   margin-right: 5px !important;
   width: 140px !important;
-  height: 140px !important;       
+  height: 140px !important;
 }
 
 .author-body-description{
   margin-left: 200px !important;
   margin-top: 40px !important;
+}
+
+.content a:not(.btn):not(.no-hover) {
+    text-decoration-color: rgba(56,157,167,0.5);
+}
+
+.markdown-body > p > a {
+  font-weight: bold !important;
+  color: rgb(3,102,214) !important;
 }
